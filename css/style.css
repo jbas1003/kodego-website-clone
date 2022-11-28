@@ -1,0 +1,88 @@
+* {
+    font-style: normal;
+    line-height: 150%;
+
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+#__nuxt {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#__layout {
+    overflow: inherit;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    height: auto;
+    display: flex;
+    height: auto !important;
+    flex-direction: column;
+    width: 100%;
+}
+
+.default-layout {
+    overflow: hidden;
+    margin: auto;
+    min-height: 100%;
+    height: auto !important;
+}
+
+#nav,
+#nav nav {
+    box-shadow: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 104px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    margin: auto;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    float: right;
+}
+
+.navbar-expand {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 94px;
+    padding: 24px;
+}
+
+.container a {
+    float: left;
+    color: #284265;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* .nav-item {
+    float: right;
+} */
