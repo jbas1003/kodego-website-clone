@@ -28,3 +28,13 @@ body {
 .navbar-right {
     float: right;
 }
+
+.navbar-right .success-text {
+    color: #A3CB38;
+    margin: 0 16px;
+    padding: 1rem;
+    display: flex;
+    height: 56px;
+    align-items: center;
+
+}
