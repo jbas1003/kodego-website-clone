@@ -2,8 +2,8 @@
     width: 85%;
     margin: auto;
     border: 1px solid black;
-/* 
-    .container--with-padding {
-        
-    } */
+    
+    &--padded {
+        padding: 1.25rem;
+    }
 }
