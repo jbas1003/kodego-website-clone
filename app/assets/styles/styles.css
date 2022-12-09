@@ -2,3 +2,4 @@
 @import './base/_global.css';
 @import './modules/_container';
 @import './modules/_header';
+@import './base/_variables';
