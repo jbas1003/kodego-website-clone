@@ -1,0 +1,9 @@
+.hero {
+    overflow: hidden;
+    margin: auto;
+    height: 770px;
+    &__bg {
+        
+        
+    }
+}
