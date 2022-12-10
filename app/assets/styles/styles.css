@@ -1,6 +1,7 @@
 @import 'normalize.css';
-@import './base/_global.css';
+@import './base/_global';
 @import './modules/_container';
 @import './modules/_header';
 @import './base/_variables';
-@import './modules/_btn'
+@import './modules/_btn';
+@import './modules/_hero';
