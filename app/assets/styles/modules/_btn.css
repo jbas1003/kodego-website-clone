@@ -8,4 +8,8 @@
         background: $mainGreen;
         color: #fff;
     }
+
+    &--wide {
+        padding: 1.25rem 8rem;
+    }
 }

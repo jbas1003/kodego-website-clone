@@ -1,5 +1,21 @@
 .hero {
-    border: 1px solid black;
+    background: linear-gradient(0deg, rgba(40, 66, 101, 0.25), rgba(40, 66, 101, 0.25)),
+    url("assets/images/hero-bg.png");
+
+    &__container {
+        display: flex;
+    }
+
+    &__text-content {
+        width: 50%;
+        padding: 3.125rem;
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    &__image-container {
+        width: 50%;
+    }
 
     &__image-container {
         max-width: 50%;
@@ -7,5 +23,14 @@
 
     &__image {
         width: 100%;
+    }
+
+    &__heading {
+        font-size: 2.625rem;
+    }
+    
+    &__text {
+        line-height: 1.7;
+        font-weight: 100;
     }
 }
