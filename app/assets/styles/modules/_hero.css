@@ -1,13 +1,11 @@
 .hero {
-    background-image: url("/app/assets/images/hero-bg.png");
-    overflow: hidden;
-    margin: auto;
-    height: 770px;
+    border: 1px solid black;
 
-    &__container {
-        display: grid;
-        width: 1110px;
-        height: 100%;
-        margin: auto;
+    &__image-container {
+        max-width: 50%;
+    }
+
+    &__image {
+        width: 100%;
     }
 }
