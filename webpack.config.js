@@ -32,7 +32,12 @@ module.exports = {
                         postcssOptions: { plugins: postCSSPlugins }
                     }
                 }]
-            }
+            },
+
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
         ]
     }
 }

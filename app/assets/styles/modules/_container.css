@@ -5,4 +5,29 @@
     &--padded {
         padding: 1.25rem;
     }
+
+    &--grid {
+        display: grid;
+        height: 100%;
+        grid-template-columns: auto auto auto;
+        margin: auto;
+    }
+
+    &__item-left {
+        width: 50%;
+        height: 100%;
+        margin: 48px 0 0;
+        padding: 58px;
+
+    }
+
+    &__item-right {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+
+        & img {
+            width: 100%;
+        }
+    }
 }
