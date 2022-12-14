@@ -2,40 +2,47 @@
     color: $mainBlue;
 
     &__container {
+        @mixin atLaptopLarge {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        }
     }
 
-    &__logo-container {
-        height: 100%;
-        margin-right: auto;
-        display: flex;
+    &__mobile-nav-trigger {
+        @mixin atLaptop {
+        display: none;
+        }
     }
 
     &__logo {
+        @mixin atLaptopLarge {
             transform: scale(0.7);
-            align-items: center;
-            justify-content: left;
         }
 
-    &__nav {
-        display: flex;
-        justify-content: space-between;
-
-        & > ul {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-
-            & > li {
-                margin-right: 1em;
-            }
-        }
     }
 
-    &__user-links {
-        & > a {
-            margin: 0 0.5em ;
+    &__nav {
+        display: none;
+
+        @mixin atLaptopLarge {
+            display: flex;
+            justify-content: space-around;
+
+                & > ul {
+                display: flex;
+                align-items: center;
+
+                & > li {
+                    margin-right: 1em;
+                }
+            }
+        }
+
+        &__user-links {
+            @mixin atLaptopLarge {
+            width: 14rem;
+            }
         }
     }
 }
